@@ -39,7 +39,7 @@ initialx = R_GSM(1)*1000.0;
 initialy = R_GSM(2)*1000.0;
 initialz = R_GSM(3)*1000.0;
 
-%% Find Mag-equator MLAT
+%% Find Mag-equator
 kext = onera_desp_lib_kext(11); % TS04
 
 inoptions = [0, 0, 0, 0, 0];
