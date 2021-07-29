@@ -188,7 +188,6 @@ for ii=1:length(Energy)
 
         %%
         %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-        %改成你的文件路径
         fid = fopen(['F:\Orbit_3h_-10deg\motion_of_', num2str(E/e/1000), 'keV_', num2str(rad2deg(theta)), 'deg_', particle_str, '.txt'], 'w');
 
         %fprintf(fid, 'Particle: %s; Energy: %d eV\n', particle_str, E/e);
